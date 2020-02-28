@@ -16,11 +16,12 @@ class App extends Component {
     return (
       
       <div>
-       <ProductList/>
+       
         <Hello name={this.state.name} />
         <p>
-          Start editing to see some magic happen :)
+          Lorem Ipsum :)
         </p>
+        <ProductList/>
       </div>
     );
   }
